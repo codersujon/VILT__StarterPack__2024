@@ -15,10 +15,9 @@ defineProps({
 </script>
 
 <template>
-    <Head>
-        <title>{{ title }}</title> 
-        <meta head-key="description" name="description" content="This is the Home page meta">
-    </Head>
+    
+    <Head title="Home"/>
+
     <div class="container mx-auto">
         <h1 class="text-5xl md:text-7xl text-center py-6 text-blue-600">
             {{ title }} Page
