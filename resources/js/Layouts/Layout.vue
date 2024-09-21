@@ -1,8 +1,12 @@
 <script setup>
-import { Link } from '@inertiajs/vue3';
+import { Link, Head } from '@inertiajs/vue3';
 </script>
 
 <template>
+    <Head>
+        <title>VILT Starter 2024 - </title>
+        <meta head-key="description" name="description" content="VILT Starter Pack 2024">
+    </Head>
     <div>
         <nav class="bg-gray-800">
             <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
