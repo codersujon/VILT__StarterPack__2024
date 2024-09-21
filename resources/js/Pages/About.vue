@@ -1,6 +1,5 @@
 <script setup>
 import BlueLayout from "../Layouts/BlueLayout.vue"
-import { Head } from '@inertiajs/vue3';
 defineOptions({
     layout: BlueLayout
 });
@@ -13,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-     <Head title="About"/>
+     <Head title=" - About"/>
      <div class="container mx-auto">
         <h1 class="text-5xl md:text-7xl text-center py-6 text-blue-600">
             {{ title }} Page

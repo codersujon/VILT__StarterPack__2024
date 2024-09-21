@@ -1,5 +1,4 @@
 <script setup>
-import { Head } from '@inertiajs/vue3';
 /*  Layouts Making and Usage
     import Layout from '../Layouts/Layout.vue';
     defineOptions({
@@ -16,7 +15,7 @@ defineProps({
 
 <template>
     
-    <Head title="Home"/>
+    <Head title=" - Home"/>
 
     <div class="container mx-auto">
         <h1 class="text-5xl md:text-7xl text-center py-6 text-blue-600">
