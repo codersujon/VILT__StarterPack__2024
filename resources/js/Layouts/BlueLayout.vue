@@ -1,3 +1,6 @@
+<script setup>
+import { Link } from '@inertiajs/vue3';
+</script>
 <template>
     <div>
         <nav class="bg-blue-800">
@@ -23,24 +26,24 @@
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 items-center">
-                           <a href="/">
+                           <Link href="/">
                             <img class="h-8 w-auto"
                                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                                 alt="Tailwind">
-                           </a>
+                           </Link>
                         </div>
                         <div class="hidden sm:ml-6 sm:block">
                             <div class="flex space-x-4">
-                                <a href="/" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
-                                    aria-current="page">Home</a>
-                                <a href="/about"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-                                <a href="/services"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Services</a>
-                                <a href="/blog"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</a>
-                                <a href="/contact"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+                                <Link href="/" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+                                    aria-current="page">Home</Link>
+                                <Link href="/about"
+                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</Link>
+                                <Link href="/services"
+                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Services</Link>
+                                <Link href="/blog"
+                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Blog</Link>
+                                <Link href="/contact"
+                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</Link>
                             </div>
                         </div>
                     </div>
