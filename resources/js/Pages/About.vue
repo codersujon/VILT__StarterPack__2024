@@ -12,10 +12,10 @@ defineProps({
 </script>
 
 <template>
-     <Head title=" - About"/>
+     <Head :title="`- ${$page.component}`"/>
      <div class="container mx-auto">
         <h1 class="text-5xl md:text-7xl text-center py-6 text-blue-600">
-            {{ title }} Page
+            {{ $page.component }} Page
         </h1>
     </div>
 </template>
