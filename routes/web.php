@@ -14,8 +14,9 @@ Route::get('/about', function(){
 
 # Way: 2
 Route::get('/blog', function(){
-    return inertia('Blog', ['user' => 'Mostakim']); // using helper function
+    return inertia('Blog', ['title' => 'Blog']); // using helper function
 });
 
-# Way: 2
-Route::inertia('/services', 'Services', ['title' => "Services"]); // 
+# Way: 3
+Route::inertia('/services', 'Services', ['title' => "Services"]);  
+Route::inertia('/contact', 'Contact', ['title' => "Contact"]);
