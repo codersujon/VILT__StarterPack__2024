@@ -12,9 +12,9 @@ Route::get('/about', function(){
     return Inertia::render('About', ['title' => 'About']);
 });
 
-# Way: 2
+# Way: 2 // using helper function
 Route::get('/blog', function(){
-    return inertia('Blog', ['title' => 'Blog']); // using helper function
+    return inertia('Blog', ['title' => 'Blog']); 
 });
 
 # Way: 3
